@@ -4,7 +4,7 @@
 <p><b>两种方式</b> excel导出支持两种方式：导出为二进制流、直接导出文件</p>
 <p><b>两个步骤</b> 只需两个步骤，即可使用：引入jar包、添加注解</p>
 
-##step1
+## step1
 引入jar包
 ***** 暂时还没上传到中央仓库，请见谅 ****
 <pre>
@@ -15,7 +15,7 @@
     &lt;/dependency&gt;
 </pre>
 
-##step2
+## step2
 添加类注解
 
 <pre>
@@ -45,8 +45,8 @@
     }
 </pre>
 
-##开始浪
-###1.表格模板导出
+## 开始浪
+### 1.表格模板导出
 <pre>
     File tempFile = new File("E:\\temp.xlsx");
     if (!tempFile.exists()){
@@ -58,7 +58,7 @@
     byte[] bytes = ExcelUtil.getInstance().exportExcelTemp(Student.class);
 </pre>
 
-###2.表格导出
+### 2.表格导出
 <pre>
     File file = new File("E:\\data.xlsx");
     if (!file.exists()){
@@ -71,7 +71,7 @@
     byte[] bytes = ExcelUtil.getInstance().exportExcelData(getStudentList());
 </pre>
 
-###3.表格导入
+### 3.表格导入
 <pre>
      File file = new File("E:\\data.xlsx");
      List<Student> students = ExcelUtil.getInstance().importToObjectList(file, Student.class);
