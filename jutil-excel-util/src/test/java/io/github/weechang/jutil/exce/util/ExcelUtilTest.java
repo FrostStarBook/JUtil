@@ -1,7 +1,7 @@
-package com.github.weechang.jutil.exce.util;
+package io.github.weechang.jutil.exce.util;
 
 
-import com.github.weechang.jutil.exce.util.pojo.Student;
+import io.github.weechang.jutil.exce.util.pojo.Student;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 
 import java.io.*;

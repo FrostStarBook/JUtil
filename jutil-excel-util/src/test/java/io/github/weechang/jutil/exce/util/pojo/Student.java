@@ -1,9 +1,9 @@
-package com.github.weechang.jutil.exce.util.pojo;
+package io.github.weechang.jutil.exce.util.pojo;
 
 import lombok.Data;
 import org.apache.poi.ss.usermodel.CellType;
-import com.github.weechang.jutil.exce.util.annotation.Excel;
-import com.github.weechang.jutil.exce.util.annotation.ExcelColumn;
+import io.github.weechang.jutil.exce.util.annotation.Excel;
+import io.github.weechang.jutil.exce.util.annotation.ExcelColumn;
 
 import java.util.Date;
 
@@ -12,7 +12,7 @@ import java.util.Date;
  * date 2018/7/18
  * time 18:06
  */
-@Excel(sheetIndex = 1)
+@Excel(sheetName = "学生花名册")
 @Data
 public class Student {
 

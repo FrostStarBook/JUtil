@@ -1,4 +1,4 @@
-package com.github.weechang.jutil.exce.util.annotation;
+package io.github.weechang.jutil.exce.util.annotation;
 
 import org.apache.poi.ss.usermodel.CellType;
 

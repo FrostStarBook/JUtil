@@ -9,7 +9,7 @@
 ***** 暂时还没上传到中央仓库，请见谅 ****
 <pre>
     &lt;dependency&gt;
-        &lt;groupId&gt;com.github.weechang&lt;/groupId&gt;
+        &lt;groupId&gt;io.github.weechang&lt;/groupId&gt;
         &lt;artifactId&gt;jutil-excel-util&lt;/artifactId&gt;
         &lt;version&gt;1.0.0&lt;/version&gt;
     &lt;/dependency&gt;
