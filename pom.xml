@@ -10,6 +10,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>jutil-excel-util</module>
+        <module>jutil-image-util</module>
     </modules>
     <name>JUtil</name>
 

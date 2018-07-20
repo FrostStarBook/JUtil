@@ -6,7 +6,6 @@
 
 ## step1
 引入jar包
-***** 暂时还没上传到中央仓库，请见谅 ****
 <pre>
     &lt;dependency&gt;
         &lt;groupId&gt;io.github.weechang&lt;/groupId&gt;
