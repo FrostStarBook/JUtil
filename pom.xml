@@ -10,7 +10,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>jutil-excel-util</module>
-        <module>jutil-image-util</module>
+        <module>jutil-validate-util</module>
     </modules>
     <name>JUtil</name>
 
@@ -20,6 +20,7 @@
         <commons-lang.version>2.6</commons-lang.version>
         <poi.version>3.17</poi.version>
         <jodd.version>3.3.8</jodd.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <dependencyManagement>
@@ -74,6 +75,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

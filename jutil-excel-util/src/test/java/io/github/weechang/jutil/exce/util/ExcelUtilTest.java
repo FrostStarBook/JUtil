@@ -3,6 +3,7 @@ package io.github.weechang.jutil.exce.util;
 
 import io.github.weechang.jutil.exce.util.pojo.Student;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.junit.Test;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -17,20 +18,11 @@ import java.util.List;
  */
 public class ExcelUtilTest {
 
-    public static void main(String[] args) throws IOException, InvalidFormatException {
-        ExcelUtilTest test = new ExcelUtilTest();
-        // 导出表格模板
-        test.exportExcelTemp();
-        // 导出表格
-        test.exportExcel();
-        // 导入表格
-        test.importExcel();
-    }
-
     /**
      * 导出表格模板
      */
-    private void exportExcelTemp() throws IOException{
+    @Test
+    public void exportExcelTemp() throws IOException{
         File tempFile = new File("E:\\temp.xlsx");
         if (!tempFile.exists()){
             tempFile.createNewFile();
@@ -44,7 +36,8 @@ public class ExcelUtilTest {
     /**
      * 导出表格
      */
-    private void exportExcel() throws IOException {
+    @Test
+    public void exportExcel() throws IOException {
         File file = new File("E:\\data.xlsx");
         if (!file.exists()){
             file.createNewFile();
@@ -62,7 +55,8 @@ public class ExcelUtilTest {
      * @throws IOException
      * @throws InvalidFormatException
      */
-    private void importExcel() throws IOException, InvalidFormatException {
+    @Test
+    public void importExcel() throws IOException, InvalidFormatException {
         File file = new File("E:\\data.xlsx");
         List<Student> students = ExcelUtil.getInstance().importToObjectList(file, Student.class);
         for (Student student : students) {
