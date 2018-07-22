@@ -18,7 +18,7 @@
 
     <developers>
         <developer>
-            <name>weichang</name>
+            <name>WeeChang</name>
             <email>zhangwei_sc@foxmail.com</email>
             <roles>
                 <role>developer</role>
@@ -36,6 +36,8 @@
     </licenses>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jdk.version>1.8</jdk.version>
         <lombok.version>1.18.0</lombok.version>
         <fastjson.version>1.2.47</fastjson.version>
         <commons-lang.version>2.6</commons-lang.version>
