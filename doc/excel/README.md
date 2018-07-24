@@ -2,10 +2,10 @@
 <p>支持简单的excel导入、导出、模板下载</p>
 <p><b>一行代码</b> 一行代码即可满足excel的导入、导出、模板下载</p>
 <p><b>两种方式</b> excel导出支持两种方式：导出为二进制流、直接导出文件</p>
-<p><b>两个步骤</b> 只需两个步骤，即可使用：引入jar包、添加注解</p>
+<p><b>两个步骤</b> 只需两个步骤，即可使用：添加maven依赖、添加注解</p>
 
 ## step1
-引入jar包
+添加maven依赖
 <pre>
     &lt;dependency&gt;
         &lt;groupId&gt;io.github.weechang&lt;/groupId&gt;

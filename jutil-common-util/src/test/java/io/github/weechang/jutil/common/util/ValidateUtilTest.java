@@ -1,7 +1,7 @@
-package io.github.weechang.jutil.validate.util;
+package io.github.weechang.jutil.common.util;
 
 
-import io.github.weechang.jutil.validate.util.enums.ValidateEnum;
+import io.github.weechang.jutil.common.util.enums.ValidateEnum;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
@@ -49,11 +49,11 @@ public class ValidateUtilTest {
         assertTrue(vaildate);
     }
 
-    @Test
-    public void vaildateMacAdd(){
-        boolean vaildate = ValidateUtil.validate("00-FF-1B-6A-B9-07", ValidateEnum.MAC_ADD);
-        assertTrue(vaildate);
-    }
+//    @Test
+//    public void vaildateMacAdd(){
+//        boolean vaildate = ValidateUtil.validate("00-FF-1B-6A-B9-07", ValidateEnum.MAC_ADD);
+//        assertTrue(vaildate);
+//    }
 
     @Test
     public void validateSelf() {

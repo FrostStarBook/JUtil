@@ -1,15 +1,12 @@
-package io.github.weechang.jutil.validate.util;
+package io.github.weechang.jutil.common.util;
 
-import io.github.weechang.jutil.validate.util.enums.ValidateEnum;
+import io.github.weechang.jutil.common.util.enums.ValidateEnum;
 import org.apache.commons.lang.StringUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.regex.Pattern;
 
-import static io.github.weechang.jutil.validate.util.enums.ValidateEnum.IPV4;
-import static io.github.weechang.jutil.validate.util.enums.ValidateEnum.IPV6;
+import static io.github.weechang.jutil.common.util.enums.ValidateEnum.IPV4;
+import static io.github.weechang.jutil.common.util.enums.ValidateEnum.IPV6;
 
 /**
  * 验证工具

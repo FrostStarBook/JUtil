@@ -1,4 +1,4 @@
-package io.github.weechang.jutil.validate.util.enums;
+package io.github.weechang.jutil.common.util.enums;
 
 /**
  * 验证枚举

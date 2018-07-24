@@ -11,6 +11,7 @@
     <modules>
         <module>jutil-excel-util</module>
         <module>jutil-validate-util</module>
+        <module>jutil-common-util</module>
     </modules>
 
     <name>JUtil</name>
